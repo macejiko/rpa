@@ -20,6 +20,7 @@ pip install rpaframework
 
 ## Run Bot
 
-User should have configured Gmail acccount
+- User should have configured Gmail acccount
+- Also **chromedriver** should be configured properly
 
 `robot -v GMAIL_ACCOUNT:xxx@gmail.com -v GMAIL_PASSWORD:XXX -v RECIPIENT_ADDRESS:yyy@gmail.com bot/bot.robot`
