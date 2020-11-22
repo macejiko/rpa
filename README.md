@@ -1,4 +1,4 @@
-# Test Task for RPA. Item's search bot on Amazon
+# Test Task for https://www.thoughtfulautomation.com/. Item's search bot on Amazon
 
 > Results of search are not equal to provided item's name. Amazon search algorithm returns not always the thing that you are looking for :)
 
