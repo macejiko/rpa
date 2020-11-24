@@ -29,7 +29,7 @@ Send Results
 
 Search Data
     [Arguments]  ${text}
-    Open Browser on Page  ${HOME_URL}  ${BROWSER}
+    Open Browser on Page  ${HOME_URL}
     main_page.Verify Page Loaded
     main_page.Start Search  ${text}
     search_results_page.Verify Page Loaded

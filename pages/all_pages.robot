@@ -10,6 +10,5 @@ Resource  search_results_page.robot
 *** Keywords ***
 
 Open Browser on Page
-    [Arguments]  ${url}  ${browser}
-    Open Browser  ${url}  ${browser}
-    Set Window Size  ${RESOLUTION_WIDTH}  ${RESOLUTION_HIGHT}
+    [Arguments]  ${url}
+    Open Available Browser    ${url}

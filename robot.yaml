@@ -1,0 +1,28 @@
+tasks:
+  Default:
+    command:
+      - python
+      - -m
+      - robot
+      - -v
+      - GMAIL_ACCOUNT:xxx@gmail.com
+      - -v
+      - GMAIL_PASSWORD:XXX
+      - -v
+      - RECIPIENT_ADDRESS:support@thoughtfulautomation.com
+      - --report
+      - NONE
+      - --outputdir
+      - output
+      - --logtitle
+      - Task log
+      - bot/bot.robot
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+    - .gitignore
